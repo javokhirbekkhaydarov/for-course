@@ -1,0 +1,2837 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@600;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#94A2B3; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7854F7; 
+  };
+
+
+
+
+:root{
+   --font-family: 'Josefin Sans';
+   --font-roboto:  Roboto;
+}
+
+.woo{
+  margin: 15 auto;
+  height: 2000px;
+  overflow: hidden;
+  /* position: relative; */
+   
+}
+
+.woo header {
+    /* bg_gradient */
+
+position: absolute;
+width: 100%;
+height: 988px;
+left: 0px;
+top: 0px;
+overflow: hidden;
+
+background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+
+}
+.woo header .navbar  .navbar-nav{
+     /* display: flex; */
+     list-style: none;
+     text-decoration: none;
+     transform: translateX(-7rem);
+     margin-top: -10px;
+}
+
+.woo header .navbar  .navbar-nav .nav-item .nav-link{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.woo header .navbar  .navbar-logo  {
+    /* LOGO */
+
+
+position: absolute;
+left: 2.86%;
+right: 88.33%;
+top: 4.96%;
+bottom: -98.67%;
+}
+.woo header .navbar  .navbar-nav .nav-item #sell{
+    /* Sell */
+
+
+position: absolute;
+width: 30px;
+height: 21px;
+left: 368px;
+top: 50px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #272D4E;
+
+}
+
+.woo header .navbar  .navbar-nav .nav-item #marketplace{
+    /* Marketplace */
+
+
+position: absolute;
+width: 101px;
+height: 21px;
+left: 436px;
+top: 50px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #272D4E;
+
+}
+.woo header .navbar  .navbar-nav .nav-item #community{
+    /* Community */
+
+
+position: absolute;
+width: 93px;
+height: 21px;
+left: 575px;
+top: 50px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #272D4E;
+}
+
+.woo header .navbar .navbar-nav .nav-item #develop{
+    /* Develop */
+
+
+position: absolute;
+width: 65px;
+height: 21px;
+left: 706px;
+top: 50px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #272D4E;
+}
+.woo header .navbar  .navbar-nav .nav-item #resource{
+    position: absolute;
+width: 85px;
+height: 21px;
+left: 809px;
+top: 50px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #272D4E;
+}
+
+.woo header .navbar .navbar-nav .nav-item #login{
+    
+position: absolute;
+width: 50px;
+height: 21px;
+left: 1211px;
+top: 50px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #272D4E;
+
+}
+
+.woo header .navbar  .navbar-nav .nav-item #login{
+    
+    position: absolute;
+    width: 50px;
+    height: 21px;
+    left: 1211px;
+    top: 50px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #272D4E;
+    
+    }
+
+    .woo header .navbar  .navbar-nav .nav-item #getStarted{
+    
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 1281px;
+        top: 40px;
+        height: 47px;
+        padding: 22px, 50px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        padding-left: 22px;
+        line-height: 21px;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 5px;
+        /* identical to box height */
+        outline: none;
+        background: #7854F7;
+        color: #fff;
+        outline:#7854F7;
+        cursor: pointer;
+        
+        }
+
+.woo header .vector-1 {
+    /* Vector */
+
+
+position: absolute;
+left: 55.84%;
+right: -41.88%;
+top: -1px;
+
+}
+input {
+    display: none;
+}
+
+
+
+
+
+section .building {/* Building exactly the eCommerce website you want. */
+
+
+    position: absolute;
+    width: 718px;
+    height: 285px;
+    left: 250px;
+    top: 200px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 65px;
+    line-height: 95px;
+    /* or 112% */
+    
+    
+    color: #272D4E;
+    
+}
+
+section .buildingText{
+    position: absolute;
+    width: 616px;
+    height: 50px;
+    left: 260px;
+    top: 584px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 139% */
+    
+    
+    color: #94A2B3;
+}
+section .buildingButton{/* Rectangle 2 */
+
+
+    position: absolute;
+    width: 267px;
+    height: 72px;
+    left: 250px;
+    top: 665px;
+    cursor: pointer;
+    background: #7854F7;
+    border-radius: 60px;
+    border:none;/* Start a New Store */
+
+
+   
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+
+    
+} 
+section .buildingButtonText{/* or Customize & Extend › */
+
+
+    position: absolute;
+    width: 199px;
+    height: 25px;
+    left: 535px;
+    top: 689px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    
+    
+    color: #94A2B3;
+    
+
+}
+section .buildingButtonText .buildingButtonText2{/* or Customize & Extend › */
+    position: absolute;  
+    top: 0px;
+    left:30px;
+    width:190px;
+    color: #7854F7;
+    text-decoration:none ;
+}
+section .buildingButtonText .buildingButtonText2:hover{
+    text-decoration: underline;
+}
+section .group-8 svg {
+    position: absolute;
+   
+    left: 1180.36px;
+    top: 179px;
+
+}
+
+section .group-10 svg {
+    position: absolute;
+   z-index: 5;
+    left: 890.36px;
+    top: 179px;
+
+}
+
+
+section #photo img {
+    position: absolute;
+    z-index: 2;
+    
+    left: 960.36px;
+    top: 379px;
+
+}
+
+section #photo button{
+    text-transform: uppercase;
+    /* Rectangle 220 */
+
+
+    position: absolute;
+    width: 117.14px;
+    height: 44.54px;
+    left: 1154.06px;
+    top:367.26px;
+     z-index: 3;
+    background: #70C217;
+    border-radius: 37.7902px;
+    border:none;
+    color: #fff;
+    cursor: pointer;
+
+}
+section #photo .cartplus {
+    position: absolute;
+    width: 75.64px;
+    height: 75.64px;
+    left: 910.81px;
+    top: 570.65px;
+    z-index: 8;
+    background: #FFBA49;
+    border-radius: 37.7902px;
+
+}
+
+section #photo .cartplus .cartplusImg{
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+
+section .group-7 svg {
+    position: absolute;
+    
+    left: 890.36px;
+    top: 329px;
+    
+}
+
+.paypalCard {
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 650px;
+    left:900px;
+    padding:20px;
+    background: #FFFFFF;
+    border-radius: 23.4905px;
+    z-index: 7;
+    box-shadow: 15px 24px 30px rgba(211, 225, 248, 0.263) ;
+
+   
+    
+}
+.paypalCard .row {
+    display: flex;
+    width: inherit;
+
+  
+   
+ 
+}
+.paypalCard .row .col{
+    display: flex;
+    border-bottom: 2px #909090;
+    
+}
+.paypalCard .row .col img {
+    flex-grow: 1;
+    margin-right: 25px;
+    width: 100px;
+    height:30px;
+    margin-top: 10px;
+
+
+}
+
+.paypalCard .row .col p {
+    flex-grow: 1;
+    margin-right: 25px;/* Stripe gateway */
+
+
+  
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    /* or 208% */
+    
+    
+    color: #94A2B3;
+
+}
+
+
+.col input {
+    display: none;
+    flex-grow: 1;
+    margin-right: 25px;
+    
+    
+    
+}
+
+.col label {
+  width:51px;
+  height:24px;
+  border:1px solid #909090;
+  display: block;
+  border-radius: 30px;
+  margin-top: 13px;
+  
+}
+.col label span {
+    width:21px;
+    height: 21px;
+    display: block;
+    background-color: #909090;
+    border-radius: 50%;
+   cursor: pointer;
+    margin-top: 2px;
+    transition: all 0.3s linear;
+    margin-left: 2px;
+}
+
+
+.paypalCard .row .col #paypal {
+    width: 100px;
+    height:60px;
+}
+.paypalCard .row .col .paypalText {
+    flex-grow: 1;
+    margin-right: 15px;/* Stripe gateway */
+    margin-top:30px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    /* or 208% */
+    
+    
+    color: #94A2B3;
+
+}
+
+.paypalCard .row .col .paypalLabel {
+    margin-top: 30px;
+}
+
+.paypalCard .row .col #bank{
+    width:min-content;
+    margin-right: 105px;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    transform: translateX(30px);
+}
+
+.col input[type="checkbox"]:checked + label span {
+    margin-left: 27px; 
+    background-color: #fff;
+   
+}
+
+.col input[type="checkbox"]:checked + label {
+    
+    background: #70C217;
+
+}
+
+
+.col #check[type="check"]:checked + label span {
+    margin-left: 27px; 
+    background-color: #fff;
+   
+}
+
+.col #check[type="check"]:checked ~ label {
+    
+    background: #70C217;
+
+}
+
+input[type="checkbox"]:checked ~ label {
+    background: #70C217;
+    
+}
+
+input[type="checkbox"]:checked ~  span{
+    margin-left: 27px; 
+    background-color: #fff;   
+    
+}
+
+
+/* section tugadi endi navbat feature-sectionga vuhhu 
+tugatdim yehhheehhe*/
+
+
+
+
+/* feauture-section boshladikma seni qani kechgacha bitirib tashayin 
+qani */
+
+
+.feature-section{
+    /* features-section */
+
+    overflow: hidden;
+    width: 100%;
+    height: 888px;    
+    top: 992px;
+}
+
+.feature-section .feature-sectionTheme{
+    /* Your eCommerce made simple */
+
+
+    position: absolute;
+    width: 457px;
+    height: 140px;
+    left: 420px;
+    top: 992px;  
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 70px;
+    /* or 127% */
+    
+    text-align: center;
+    
+    color: #272D4E;
+    
+    
+
+}
+.feature-section .simpleCart .row .simpleCol{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 60px;
+
+}
+
+.feature-section .simpleCart .row .col .simple1{
+    width: 10px;
+    position: absolute;
+    width: 380px;
+    height: 293px;
+    left: 60px;
+    top: 1213px;
+}
+.feature-section  .simpleCart .row .col .simple1Theme{/* All You Need to Start */
+
+
+    position: absolute;
+    width: 351px;
+    height: 70px;
+    left: 100px;
+    top: 1436px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 70px;
+    /* identical to box height, or 194% */
+    
+    
+    color: #272D4E;
+
+}
+.feature-section  .simpleCart .row .col .simple1Text{/* Add WooCommerce plugin to any WordPress site and set up a new store in minutes. */
+
+
+    position: absolute;
+    width: 301px;
+    height: 60px;
+    left: 100px;
+    top: 1511px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 167% */
+    
+    
+    color: #94A2B3;
+    
+
+}
+.feature-section  .simpleCart .row .col .simple1Link{/* Ecommerce for Wordpress › */
+
+
+    position: absolute;
+    width: 227px;
+    height: 25px;
+    left: 100px;
+    top: 1606px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    
+    
+    color: #299EF3;
+    
+
+}
+
+.feature-section  .simpleCart .row .col .simple1Left{
+    position: absolute;
+    width: 182px;
+    height: 224px;
+    left: -4px;
+    top: 1271px;
+
+
+}
+.feature-section  .simpleCart .row .col .apple {
+    position: absolute;
+    width: 72px;
+    height: 52px;
+    left: 24px;
+    top: 1201px;
+
+
+}
+
+
+
+/* simplecol-2 */
+
+.feature-section  .simpleCart .row .simpleCol2{
+    position: absolute;
+    width: 430px;
+    height: 294px;
+    left: 421px;
+    top: 107px;
+
+}
+
+.feature-section  .simpleCart .row .simpleCol2 .simple2Square{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    top: 1200px;
+    left: 90px;
+}
+
+.feature-section  .simpleCart .row .simpleCol2 .simple2head{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    top: 1250px;
+    left: 260px;
+}
+
+.feature-section  .simpleCart .row .simpleCol2 .simple2facebook{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    top: 1290px;
+    left: 90px;
+}
+
+.feature-section  .simpleCart .row .simpleCol2 .simple2jackpot{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    top: 1310px;
+    left: 230px;
+}
+
+.feature-section  .simpleCart .row .simpleCol2 .simple2driver{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    top: 1410px;
+    left: 180px;
+}
+
+
+/* simpleCol-3 */
+
+.feature-section  .simpleCart .row .simpleCol3{
+    position: absolute;
+    width: 430px;
+    height: 294px;
+    left: 781px;
+    top: 197px;
+
+}
+
+.feature-section  .simpleCart .row .simpleCol3 .simple3img1{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+}
+
+.feature-section  .simpleCart .row .simpleCol3 .simple3img2{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    top: 1140px;
+    left: 230px;
+}
+
+.feature-section  .simpleCart .row .simpleCol3 .simple3img3{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    top: 1350px;
+    left: 330px;
+}
+.feature-section  .simpleCart .row .col .simple3Link{/* Ecommerce for Wordpress › */
+
+
+    position: absolute;
+    width: 227px;
+    height: 25px;
+    left: 100px;
+    top: 1586px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    
+    
+    color: #299EF3;
+    
+
+}
+
+
+
+/* middle section start */
+
+.middle-section{
+    position: absolute;
+    width: 100%;
+    height: 1182px;
+    left: 0px;
+    top: 2004px;
+    margin: 0;
+    right: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+.middle-section .union{
+    /* Union */
+
+
+    position: absolute;
+    width: 750px;
+    height: 329.27px;
+    left: 911px;
+    top: 56px;
+     z-index: 2;
+    }
+    .middle-section .background{
+        /* Union */
+    
+    
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+       
+        }
+
+    .middle-section .middle-img img {
+        position: absolute;
+        width: 400px;
+        z-index: 3;
+        left: 100px;
+        top: -14px;
+    }
+    .middle-section .middle-img .middleDev{
+        /* Develop Without Limits */
+
+
+        position: absolute;
+        width: 285px;
+        height: 92px;
+        left: 545px;
+        top: 32px;
+
+        font-family: 'Josefin Sans', sans-serif;  
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 46px;
+        
+        color: #FFFFFF;
+        
+
+
+    }
+
+    .middle-section .middle-img .middleDevText{
+        position: absolute;
+        width: 410px;
+        height: 150px;
+        left: 545px;
+        top: 162px;
+
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 167% */
+        
+        
+        color: #FFFFFF;
+
+    }
+
+    
+    .middle-section .middle-img form .middleDevButton{
+        transition: all 0.4s ease;
+        position: absolute;
+        
+        left: 545px;
+        top: 362px;
+        width: 256px;
+        height: 64px;
+        
+        
+        background: #70C217;
+        border-radius: 60px;
+        cursor:pointer;
+        border:none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 167% */
+        
+        
+        color: #FFFFFF;
+
+    } 
+    
+    .middle-section .middle-img form .middleDevButton:hover{
+        position: absolute;
+        
+        left: 545px;
+        top: 362px;
+        width: 256px;
+        height: 64px;
+        
+        
+        background: #91e933;
+        border-radius: 60px;
+        cursor:pointer;
+        border:none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 167% */
+        
+        
+        color: #FFFFFF;
+
+    }
+    .middle-section .middle-img form .middleDevButton:focus{
+        position: absolute;
+        
+        left: 545px;
+        top: 362px;
+        width: 256px;
+        height: 64px;
+        
+        
+        background: #5faf08;
+        border-radius: 60px;
+        cursor:pointer;
+        border:none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 167% */
+        outline-style:none;
+        
+        color: #FFFFFF;
+
+    }
+
+
+
+    /* endi navbat middle section ichidagi ellepselarga
+    olg`a Khaydarov*/
+
+    .middle-section .middle-img .middleBigEllepse{
+
+        position: absolute;
+        width: 360px;
+        z-index: 2;
+        left: 80px;
+        top: 154px;
+    }
+
+    .middle-section .middle-img .middleSmileEllepse{/* Ellipse 32 */
+
+
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 17px;
+        top: 122px;
+         border-radius: 50%;
+        border: 5px solid #FFBA49;
+        box-sizing: border-box;
+        
+        
+    }
+
+    .middle-section .middle-img .middleCirciles{/* Ellipse 32 */
+
+
+        position: absolute;
+       
+        left: 37px;
+        top: 322px;
+       z-index: 2;
+      
+        
+        
+    }
+
+    /* *******  *** * middle-section 2-qator * * * * * * */
+    
+    
+    .middle-section .middleDev2{/* Know our Global Community */
+
+
+        position: absolute;
+        width: 286px;
+        height: 92px;
+        left: 305px;
+        top: 552px;
+        padding: 0;
+        font-family: 'Josefin Sans', sans-serif;  
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 46px;
+        
+        color: #FFFFFF;
+        
+
+    }
+    .middle-section .middle-img2 img {
+        position: absolute;
+        width: 400px;
+        z-index: 3;
+        left: 700px;
+        top: 554px;
+        padding: 0;
+        
+    }
+    .middle-section  .middleDevText2{
+        position: absolute;
+        width: 410px;
+        height: 150px;
+        left: 305px;
+        top: 692px;
+
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 167% */
+        
+        
+        color: #FFFFFF;
+
+    }
+
+
+
+    .middle-section  form .middleDevButton2{
+        transition: all 0.4s ease;
+        position: absolute;
+        
+        left: 305px;
+        top: 892px;
+        width: 256px;
+        height: 64px;
+        
+        
+        background: #70C217;
+        border-radius: 60px;
+        cursor:pointer;
+        border:none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 167% */
+        
+        
+        color: #FFFFFF;
+
+    } 
+    
+    .middle-section  form .middleDevButton2:hover{
+        position: absolute;
+        left: 305px;
+        top: 892px;
+        
+        width: 256px;
+        height: 64px;
+        
+        
+        background: #91e933;
+        border-radius: 60px;
+        cursor:pointer;
+        border:none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 167% */
+        
+        
+        color: #FFFFFF;
+
+    }
+    .middle-section  form .middleDevButton2:focus{
+        position: absolute;
+        
+        left: 305px;
+        top: 892px;
+       
+        width: 256px;
+        height: 64px;
+        
+        
+        background: #5faf08;
+        border-radius: 60px;
+        cursor:pointer;
+        border:none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 167% */
+        outline-style:none;
+        
+        color: #FFFFFF;
+
+    }
+
+
+
+    .middle-section  .middleBigEllepse2{
+
+        position: absolute;
+        width: 270px;
+     border-radius: 50%;
+         z-index: 2;
+        left: 900px;
+        top: 484px;
+    }
+
+    .middle-section  .middleSmileEllepse2{/* Ellipse 32 */
+
+
+        position: absolute;
+        width: 65px;
+        height: 65px;
+         z-index: 4;
+         left: 780px;
+        top: 542px;
+         border-radius: 50%;
+        border: 5px solid #FFBA49;
+        box-sizing: border-box;
+        
+        
+    }
+
+    .middle-section  .middleCirciles2{/* Ellipse 32 */
+
+
+        position: absolute;
+       transform: rotate(90deg);
+        left: 987px;
+        top: 682px;
+       z-index: 2;
+      
+        
+        
+    }
+
+
+
+    /*======= ====  footer sction qismiga ham kelib 
+    qoldik nasib bo`lsa bugun loyihani tugatamiz*/
+
+
+
+    .footer-section{/* bg_gradient */
+
+
+        position: absolute;
+        width: 100%;
+        height: 1009px;
+        left: 0px;
+        top: 3090px;
+        overflow: hidden;
+        background: linear-gradient(180deg, rgba(236, 240, 253, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ECF0FD 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);
+
+    }
+    .footer-section .footer-section-theme{
+        /* Trusted by Agencies & Store Owners */
+
+
+        position: absolute;
+        width: 470px;
+        height: 140px;
+        left: 470px;
+        top: 192px;
+        
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 70px;
+       
+        color: #272D4E;
+
+    }
+
+    /* left images */
+    .footer-section .leftImages .leftImg1{
+        position: absolute;
+        width: 106px;
+        height: 106px;
+        left: 231px;
+        top: 277px;
+        
+        
+    }
+
+    .footer-section .leftImages .leftImg2{
+        position: absolute;
+        width: 76px;
+        height: 76px;
+        left: 91px;
+        top: 477px;
+        
+    }
+
+    .footer-section .leftImages .leftImg3{
+        position: absolute;
+        width: 76px;
+        height: 76px;
+        left: 191px;
+        top: 677px;
+        
+    }
+
+    /* right images */
+    .footer-section .rightImages .rightImg1{
+        position: absolute;
+        width: 106px;
+        height: 106px;
+        left: 991px;
+        top: 277px;
+        
+        
+    }
+
+    .footer-section .rightImages .rightImg2{
+        position: absolute;
+        width: 136px;
+        height: 136px;
+        left: 1141px;
+        top: 477px;
+        
+    }
+
+    .footer-section .rightImages .rightImg3{
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        left: 1091px;
+        top: 737px;
+        
+    }
+
+
+    /* center cards */
+    .footer-section .centerAttribute  {
+        /* Rectangle 229 */
+
+
+        position: absolute;
+        width: 670px;
+        height: 381px;       
+        left: 345px;
+        top: 435px;
+      
+        
+       
+
+    }
+    .footer-section .centerAttribute .centerAttribute1 {
+        /* Rectangle 229 */
+
+
+        position: absolute;
+        width: 670px;
+        height: 381px;       
+      
+        z-index: 2;
+        background: #FFFFFF;
+        /* Box-shadow */
+        
+        box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+        border-radius: 20px;
+
+    }
+
+
+    .footer-section .centerAttribute .center99{position: absolute;
+        width: 234px;
+        height: 168px;
+        left: 223px;
+        top: 33px;
+        z-index: 3;
+
+
+    }
+
+
+    .footer-section .centerAttribute .centerText{
+        position: absolute;
+        width: 566.17px;
+        z-index: 4;
+        height: 198px;
+        left: 47px;
+        top: 41px;
+        
+        font-family: var(--font-roboto);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24.7px;
+        line-height: 49px;
+        /* or 148% */
+        
+        text-align: center;
+        
+        color: #94A2B3;
+
+    }
+
+    .footer-section .centerAttribute .centerBottom1 { 
+        /* Rectangle 229 */
+
+
+        position: absolute;
+        width: 650px;
+        height: 381px;       
+        left: 10px;
+        top: 26px;
+      
+        background: #ffffff;
+        /* Box-shadow */
+      z-index:1;
+     
+        box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+        border-radius: 20px;
+
+    }
+
+    .footer-section .centerAttribute .centerBottom2 { 
+        /* Rectangle 229 */
+
+
+        position: absolute;
+        width: 630px;
+        height: 381px;       
+        left: 20px;
+        top: 45px;
+      
+        background: #ffffff;
+        /* Box-shadow */
+      
+     
+        box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+        border-radius: 20px;
+
+    }
+
+    /* circile qismi */
+
+    .footer-section .centerAttribute .centerCircile1 {
+        position: absolute;
+        width: 173.76px;
+        height: 402.16px;
+        left: 155.96px;
+        top: 142.2px;
+        
+        transform: rotate(180deg);
+
+    }
+
+
+    
+    .footer-section .centerAttribute .centerCircile2 {
+        position: absolute;
+        width: 173.76px;
+        height: 402.16px;
+        left: 625.96px;
+        top: -142.2px;
+        
+        transform: rotate(180deg);
+
+    }
+
+
+
+    /* strelkalar */
+
+    .footer-section .centerAttribute .centerLeft {
+        position: absolute;
+        z-index: 5;
+        left: 455.96px;
+        top: 522.2px;
+        
+        
+
+    }
+
+    .footer-section .centerAttribute .centerRight {
+        position: absolute;
+        z-index: 5;
+        left: 500.96px;
+        top: 517.2px;
+        
+        
+
+    }
+
+    /* menimcha footer-section qismi tugab qoldi :)  */
+
+
+
+
+    /* endi navbat people-sectionga olg`aaaaaaa */
+
+    .people-section {
+        /* people-section */
+
+
+        position: absolute;
+        width: 100%;
+        height: 583.08px;
+        overflow: hidden;
+        left: 0px;
+        top: 4228px;
+    }
+
+
+    /* people-section mavzusi stili */
+        .people-section .peopleTheme {/* Supported by real people */
+
+
+            position: absolute;
+            width: 768px;
+            height: 70px;
+            left: 286px;
+            top: -28px;
+            
+            
+           font-family: 'Josefin Sans', sans-serif;
+
+            font-style: normal;
+            font-weight: bold;
+            font-size: 45px;
+            line-height: 70px;
+            /* identical to box height, or 127% */
+            
+            text-align: center;
+            
+            color: #272D4E;
+            
+            
+
+        }
+
+        /* peopleText */
+        .people-section  .peopleText {  
+              position: absolute;
+            width: 568px;
+            height: 70px;
+            left: 386px;
+            top: 98px;
+
+            font-family:var(--font-roboto);
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            /* or 139% */
+            
+            text-align: center;
+            
+            color: #94A2B3;
+
+        }
+
+        /*  odamlarni rasmi ya`ni people img*/
+        .people-section .peopleImg {
+            position: absolute;
+            width: 1011px;
+            height: 223px;
+            left: 155px;
+            top: 195px;
+            z-index:2;
+            
+
+        }
+
+        /* orqa fon */
+        .people-section .orqafon {
+            position: absolute;
+            width: 1111px;
+            height: 293px;
+            left: 115px;
+            top: 295px;
+            background: #EEEEEE;
+            /* Box-shadow */
+            
+            box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+            border-radius: 60px;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            
+
+        }
+
+        /* people ellepse */
+        .people-section .peopleEllepse{
+            position: absolute;
+            top: 200px;
+            left:30px;
+        }
+
+           /* people ellepse right */
+           .people-section .peopleEllepseright{
+            position: absolute;
+            top: 10px;
+            left:1190px;
+        }
+
+        /* people ellepse simle */
+        .people-section .peopleEllepseSimle{
+            position: absolute;
+            top: 120px;
+            left:90px;
+        }
+
+        /* aylanachalar ya`ni circiles left */
+        .people-section .peopleCircleLeft {
+            position: absolute;
+            top: 390px;
+            left:40px;
+
+            width:120px;
+        }
+
+        /* aylanachalar ya`ni circiles right */
+
+        .people-section .peopleCircleRight {
+            position: absolute;
+            top: 240px;
+            left:1140px;
+            transform: rotate(90deg);
+            width:120px;
+        }
+
+        .preFooterNavbar{
+            
+            position: absolute;
+            width:100%;
+            overflow: hidden;
+
+            height: 261px;
+            left: 0px;
+            top: 4645px;
+            transition: all .3s ease-in-out;
+            
+            
+        }
+        .preFooterNavbar .preFooterNavbarText{position: absolute;
+            width: 855px;
+            height: 105px;
+            left: 220px;
+            top: 66px;
+            
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 52px;
+            /* or 146% */
+            
+            
+            color: #FFFFFF;
+
+        }
+        .preFooterNavbar .preButton{
+            transition: all .3s linear;
+
+            position: absolute;
+            width: 207px;
+            height: 72px;
+            left: 1092px;
+            top: 122px;
+            text-transform: uppercase;
+            border: 2px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 60px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 52px;
+            /* or 146% */
+            
+            background: #5F37EF;
+            
+            color: #FFFFFF;
+
+        }
+        .preFooterNavbar .preButton:hover{
+            cursor: pointer;
+            background: #FFFFFF;
+            color:#5617bb;
+        }
+
+
+
+
+
+       .woo .bottomSection{
+            /* bottom-section */
+
+
+            position: absolute;
+            left:0px;
+            top:4899px;
+            height: 801px;
+            left: 0px;     
+            background: #7854F7;
+            width: 100%;           
+            overflow: hidden;
+            
+
+        }
+         .bottomNavbar .row{
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            position: absolute;
+            left:-60px
+           
+
+        }
+        .bottomSection #bottomrow #bottomColOne .bottomColOneText{
+            /* 30 day money back guarantee */
+
+
+            position: absolute;
+            width: 269px;
+            height: 53px;
+            left: 184px;
+            top: 14px;
+            
+            font-family: Roboto;
+            font-style: normal;
+            /* font-weight: normal; */
+            font-size: 18px;
+            line-height: 52px;
+            /* identical to box height, or 262% */
+            
+            
+            color: #FFFFFF;
+
+        }
+
+        .bottomSection #bottomrow #bottomColOne .bottomColOneSvg{
+            /* 30 day money back guarantee */
+
+
+            position: absolute;
+            width: 200px;
+            height: 53px;
+            left: 44px;
+            top: 26px;
+            
+          
+
+        }
+
+        /* two bottom col */
+
+        .bottomSection #bottomrow #bottomColTwo .bottomColTwoText{
+            /* 30 day money back guarantee */
+
+
+            position: absolute;
+            width: 269px;
+            height: 53px;
+            left: 554px;
+            top: 14px;
+            
+            font-family: Roboto;
+            font-style: normal;
+            /* font-weight: normal; */
+            font-size: 18px;
+            line-height: 52px;
+            /* identical to box height, or 262% */
+            
+            
+            color: #FFFFFF;
+
+        }
+
+        .bottomSection #bottomrow #bottomColTwo .bottomColTwoSvg{
+            /* 30 day money back guarantee */
+
+
+            position: absolute;
+            width: 200px;
+            height: 53px;
+            left: 414px;
+            top: 34px;
+            
+          
+
+        }
+
+
+        
+           /* there bottom col */
+
+
+
+
+           .bottomSection #bottomrow #bottomColThere .bottomColThereText{
+            /* 30 day money back guarantee */
+
+
+            position: absolute;
+            width: 269px;
+            height: 53px;
+            left: 934px;
+            top: 14px;
+            
+            font-family: Roboto;
+            font-style: normal;
+            /* font-weight: normal; */
+            font-size: 18px;
+            line-height: 52px;
+            /* identical to box height, or 262% */
+            
+            
+            color: #FFFFFF;
+
+        }
+
+        .bottomSection #bottomrow #bottomColThere .bottomColThereSvg{
+            /* 30 day money back guarantee */
+
+
+            position: absolute;
+            width: 200px;
+            height: 53px;
+            left: 794px;
+            top: 34px;
+            
+          
+
+        }
+
+        .bottomSection .bottomSectionLogo {
+            position: absolute;
+          
+            left: 554px;
+            top: 224px;
+
+        }
+        .bottomSection .bottomSectionLogoText {
+            position: absolute;
+          
+            left: 620px;
+            top: 229px;
+
+        } 
+        
+        .bottomSection .bottomSectionLine {
+            position: absolute;
+            width:1100px;
+            height: 1px;
+            left: 120px;
+            top: 329px;
+
+        }
+
+
+
+
+
+
+
+        /* bottom Navbar boshlandi */
+
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol{
+            line-height: 70px;
+        }
+        .bottomSection .bottomNavbar #navbarRow #navbarCol .navbarTheme{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 237px;
+            top: 339px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 52px;
+            /* identical to box height, or 375% */
+            
+            text-transform: uppercase;
+            
+            color: #ffffff;
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol a{
+            margin-top: 29px;
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol .bottomLinks{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 237px;
+            top: 389px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol .bottomLinksTeam{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 237px;
+            top: 419px;
+            text-decoration: none;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol .bottomLinkswork{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 237px;
+            top: 449px;
+            text-decoration: none;
+            z-index:3;
+            cursor: pointer;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            /* or 183% */
+            
+            
+          
+
+        }
+
+
+
+        /* 2-qator boshlandi */
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .navbarTheme2{
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 437px;
+            top: 339px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 52px;
+            /* identical to box height, or 375% */
+            
+            text-transform: uppercase;
+            
+            color: #ffffff;
+
+        }
+
+        
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .bottomLinks2{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 437px;
+            top: 419px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .bottomLinksPayment{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 437px;
+            top: 449px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .bottomLinksMarketing{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 437px;
+            top: 479px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .bottomLinksShipping{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 437px;
+            top: 509px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .bottomLinksStore{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 437px;
+            top: 539px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .bottomLinksBlog{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 106px;
+            height: 53px;
+            left: 437px;
+            top: 569px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .bottomLinksDevblog{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 106px;
+            height: 53px;
+            left: 437px;
+            top: 599px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .bottomLinksIdea{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 437px;
+            top: 629px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .bottomLinksMobile{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 437px;
+            top: 659px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .bottomLinksCommunity{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 437px;
+            top: 689px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol2 .bottomLinksEmail{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 106px;
+            height: 53px;
+            left: 437px;
+            top: 719px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+
+
+
+
+
+
+
+
+        /* 3-qator boshlandi */
+
+
+
+
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol3 .navbarTheme3{
+            position: absolute;
+            width: 186px;
+            height: 53px;
+            left: 637px;
+            top: 339px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 52px;
+            /* identical to box height, or 375% */
+            
+            text-transform: uppercase;
+            
+            color: #ffffff;
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol3 .bottomLinks3{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 637px;
+            top: 419px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol3 .bottomLinksSlider{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 637px;
+            top: 449px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+        
+        .bottomSection .bottomNavbar #navbarRow #navbarCol3 .bottomLinksSensei{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 637px;
+            top: 479px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol3 .bottomLinksExtinsion{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 106px;
+            height: 53px;
+            left: 637px;
+            top: 509px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+       
+        }
+        
+
+
+        /* 4-qator boshlandi */
+
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol4 .navbarTheme4{
+            position: absolute;
+            width: 186px;
+            height: 53px;
+            left: 837px;
+            top: 339px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 52px;
+            /* identical to box height, or 375% */
+            
+            text-transform: uppercase;
+            
+            color: #ffffff;
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol4 .bottomLinksSlider{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 837px;
+            top: 449px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol4 .bottomLinksDocument{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 837px;
+            top: 419px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol4 .bottomLinksPolice{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 837px;
+            top: 479px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol4 .bottomLinksContact{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 837px;
+            top: 509px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol4 .bottomLinksCovid{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 136px;
+            height: 53px;
+            left: 837px;
+            top: 539px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol4 .bottomLinksPrivacy{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 136px;
+            height: 53px;
+            left: 837px;
+            top: 569px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol4 .bottomLinksUser{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 136px;
+            height: 53px;
+            left: 837px;
+            top: 599px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+
+
+
+
+         /* 5-qator boshlandi */
+
+
+         .bottomSection .bottomNavbar #navbarRow #navbarCol5 .navbarTheme5{
+            position: absolute;
+            width: 186px;
+            height: 53px;
+            left: 1037px;
+            top: 339px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 52px;
+            /* identical to box height, or 375% */
+            
+            text-transform: uppercase;
+            
+            color: #ffffff;
+
+        }
+
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol5 .bottomLinksExpert{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 1037px;
+            top: 419px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        
+        .bottomSection .bottomNavbar #navbarRow #navbarCol5 .bottomLinksFaq{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 1037px;
+            top: 449px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol5 .bottomLinksSuccess{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 86px;
+            height: 53px;
+            left: 1037px;
+            top: 479px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol5 .bottomLinksDesign{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 186px;
+            height: 53px;
+            left: 1037px;
+            top: 509px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+
+        .bottomSection .bottomNavbar #navbarRow #navbarCol5 .bottomLinksHosting{
+            /* Who we Are */
+
+
+            position: absolute;
+            width: 186px;
+            height: 53px;
+            left: 1037px;
+            top: 539px;
+            z-index:3;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            color:#fff;
+            text-decoration: none;
+
+            /* or 183% */
+            
+            
+          
+
+        }
+
+
+
+        /* nasib bo`lsa oz qoldi  */
+
+
+        .last{
+            position: absolute;
+            top:5700px;
+            width:100%;
+            height:80px;
+            left: 0px;
+            right: 0px;
+            background: #E5E5E5;
+
+        }
+
+        .last .icons {
+            display: flex;
+            width:300px;
+            justify-content: space-between;
+            position: absolute;
+            left:150px;
+            top:40px;
+        }
+        .last .icons i{
+            transform: scale(1.1);
+            cursor: pointer;
+            margin-left: 10px;
+            margin-right: 10px;
+            display:flex
+        }
+        .last .icons .fa-wifi{
+           font-size:18px;
+           
+        }
+        .last .lastText{
+            position: absolute;
+            width: 721px;
+            height: 22px;
+            left: 350px;
+            top: 25px;
+            
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            /* identical to box height, or 183% */
+            
+            text-align: center;
+            
+            color: #272D4E;
+            
+
+        }
+
+        .last .lastText span{
+            text-decoration: underline;
+        }
+
+        .last .lastImg{
+            position: absolute;
+            width: 121px;
+            height: 12px;
+            left: 1000px;
+            top: 35px;
+            
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            /* identical to box height, or 183% */
+            
+            text-align: center;
+            
+            color: #272D4E;
+            
+
+        }
